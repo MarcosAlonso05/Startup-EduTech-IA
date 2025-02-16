@@ -1,0 +1,66 @@
+@startuml
+
+abstract class Usuario {
+    - String nombre
+    - String apellido
+    - String correo
+    + Usuario(String nombre, String apellido, String correo)
+}
+
+class Alumno {
+    - List<Curso> cursosInscritos
+    + Alumno(String nombre, String apellido, String correo)
+    + void inscribirseEnCurso(Curso curso)
+    + void completarContenido(Curso curso)
+    + List<Curso> buscarCursos(String criterio, Filtro filtro, GestorCursos gestor)
+}
+
+class Profesor {
+    - List<Curso> cursosImpartidos
+    + Profesor(String nombre, String apellido, String correo)
+    + void solicitarCreacionCurso(String titulo, GestorCursos gestor)
+    + void solicitarModificacionCurso(Curso curso, GestorCursos gestor)
+    + void solicitarEliminacionCurso(Curso curso, GestorCursos gestor)
+}
+
+class Curso {
+    - int id
+    - String titulo
+    - Profesor profesor
+    - List<Alumno> alumnos
+    - List<Contenido> contenidos
+    + Curso(int id, String titulo, Profesor profesor)
+    + void agregarContenido(Contenido contenido)
+    + void eliminarContenido(Contenido contenido)
+    + void inscribirAlumno(Alumno alumno)
+}
+
+class Contenido {
+    - String titulo
+    - String contenido
+    - Curso curso
+    + Contenido(String titulo, String contenido, Curso curso)
+}
+
+class GestorCursos {
+    - List<Curso> cursosTotales
+    + void registrarCurso(String titulo, Profesor profesor)
+    + void modificarCurso(Curso curso)
+    + void eliminarCurso(Curso curso)
+    + List<Curso> obtenerCursos()
+}
+
+class Filtro {
+    + List<Curso> filtrarCursos(List<Curso> cursos, String criterio)
+}
+
+Usuario <|-- Alumno : "hereda"
+Usuario <|-- Profesor : "hereda"
+Alumno --> Curso : "se inscribe"
+GestorCursos --> Curso : "gestiona"
+Filtro ..> GestorCursos : "usa cursos de"
+Profesor --> GestorCursos : "gestion de los cursos"
+Alumno --> Filtro : "busca cursos"
+Curso *-- Contenido
+
+@enduml
