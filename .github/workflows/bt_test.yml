@@ -2,7 +2,7 @@
 name: Build and Test
 
 #Configurar el entorno con JDK adecuado.
-#Compilar el código con Maven o Gradle.
+#Compilar el código con Maven
 #Ejecutar pruebas unitarias con JUnit.
 #Generar informes de cobertura de código.
 
