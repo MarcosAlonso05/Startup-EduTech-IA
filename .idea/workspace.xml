@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0ed81e-8053-4d40-8540-e59eb08d5818" name="Changes" comment="Accion 2">
-      <change beforePath="$PROJECT_DIR$/src/PruebaAccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PruebaAccion.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e0ed81e-8053-4d40-8540-e59eb08d5818" name="Changes" comment="Accion Pruba 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +91,7 @@
       <workItem from="1739830051796" duration="312000" />
       <workItem from="1739887753185" duration="1815000" />
       <workItem from="1739896749524" duration="1126000" />
-      <workItem from="1739909493623" duration="645000" />
+      <workItem from="1739909493623" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion inicial de clases Contenido Curso y Usuario">
       <option name="closed" value="true" />
@@ -143,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739910088503</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Accion Pruba 2">
+      <option name="closed" value="true" />
+      <created>1739910218520</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739910218520</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Accion Pruba 2">
+      <option name="closed" value="true" />
+      <created>1739910233893</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739910233893</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +169,7 @@
     <MESSAGE value="Prueba de accion 1" />
     <MESSAGE value="Prueba de accion 1 (actualizado)" />
     <MESSAGE value="Accion 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accion 2" />
+    <MESSAGE value="Accion Pruba 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accion Pruba 2" />
   </component>
 </project>

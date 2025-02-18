@@ -1,11 +1,12 @@
 name: Code Quality Check
 
+#Hace analisis de calidad del codigo
+
 on:
-  pull_request:
-    branches:
-      - main
-      - develop
-      - function
+  workflow_run:
+    workflows: ["Build & Test"]
+    types:
+      - completed
 
 jobs:
   sonarcloud:
