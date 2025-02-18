@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0ed81e-8053-4d40-8540-e59eb08d5818" name="Changes" comment="Accion Pruba 2" />
+    <list default="true" id="7e0ed81e-8053-4d40-8540-e59eb08d5818" name="Changes" comment="Acciones modificadas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +94,7 @@
       <workItem from="1739830051796" duration="312000" />
       <workItem from="1739887753185" duration="1815000" />
       <workItem from="1739896749524" duration="1126000" />
-      <workItem from="1739909493623" duration="991000" />
+      <workItem from="1739909493623" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion inicial de clases Contenido Curso y Usuario">
       <option name="closed" value="true" />
@@ -157,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739910233893</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Acciones modificadas">
+      <option name="closed" value="true" />
+      <created>1739910750088</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739910750088</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +181,7 @@
     <MESSAGE value="Prueba de accion 1 (actualizado)" />
     <MESSAGE value="Accion 2" />
     <MESSAGE value="Accion Pruba 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accion Pruba 2" />
+    <MESSAGE value="Acciones modificadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acciones modificadas" />
   </component>
 </project>
