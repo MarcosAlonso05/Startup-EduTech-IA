@@ -4,6 +4,6 @@ public class PruebaAccion {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello, GitHub Actions!");
+        System.out.println("Hola mundo :)");
     }
 }
