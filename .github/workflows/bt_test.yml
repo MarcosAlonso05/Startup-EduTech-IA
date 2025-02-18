@@ -1,4 +1,5 @@
-name: Build & Test
+
+name: Build and Test
 
 #Configurar el entorno con JDK adecuado.
 #Compilar el código con Maven o Gradle.
